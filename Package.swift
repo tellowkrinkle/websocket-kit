@@ -3,9 +3,6 @@ import PackageDescription
 
 let package = Package(
     name: "websocket-kit",
-    platforms: [
-       .macOS(.v10_14)
-    ],
     products: [
         .library(name: "WebSocketKit", targets: ["WebSocketKit"]),
     ],
